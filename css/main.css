@@ -1,11 +1,11 @@
 :root {
-  --color-text: #999;
-  --color-text-dimmed: #666;
+  --color-text: #eee;
+  --color-text-dimmed: #ddd;
   --color-text-bright: #fff;
   --color-background: #000;
   --font-primary: "Roboto Condensed";
   --font-secondary: "Roboto";
-  --font-size: 20px;
+  --font-size: 30px;
   --font-size-xsmall: 0.75rem;
   --font-size-small: 1rem;
   --font-size-medium: 1.5rem;
@@ -251,16 +251,4 @@ sup {
 
 .region .container.hidden {
   display: none;
-}
-
-.region.left .flex {
-  justify-content: flex-start;
-}
-
-.region.center .flex {
-  justify-content: center;
-}
-
-.region.right .flex {
-  justify-content: flex-end;
 }

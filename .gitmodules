@@ -1,0 +1,9 @@
+[submodule "modules/MMM-BackgroundSlideshow"]
+	path = modules/MMM-BackgroundSlideshow
+	url = https://github.com/darickc/MMM-BackgroundSlideshow.git
+[submodule "modules/MMM-Wallpaper"]
+	path = modules/MMM-Wallpaper
+	url = https://github.com/DRK-512/MMM-Wallpaper.git
+[submodule "modules/MMM-GoogleTasks"]
+	path = modules/MMM-GoogleTasks
+	url = https://github.com/DRK-512/MMM-GoogleTasks.git
