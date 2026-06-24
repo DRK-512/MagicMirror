@@ -1,0 +1,12 @@
+[Unit]
+Description=MagicMirror
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=jd
+ExecStart=/bin/sh -c "cd /home/mm/MagicMirror && DISPLAY=:0 npm run start"
+
+[Install]
+WantedBy=multi-user.target
