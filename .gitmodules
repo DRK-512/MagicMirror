@@ -7,3 +7,6 @@
 [submodule "modules/MMM-GoogleTasks"]
 	path = modules/MMM-GoogleTasks
 	url = https://github.com/DRK-512/MMM-GoogleTasks.git
+[submodule "config/nodejs"]
+	path = config/nodejs
+	url = https://github.com/nodejs/node.git
