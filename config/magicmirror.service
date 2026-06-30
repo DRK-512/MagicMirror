@@ -5,8 +5,8 @@ StartLimitIntervalSec=0
 
 [Service]
 Type=simple
-User=jd
-ExecStart=/bin/sh -c "cd /home/mm/MagicMirror && DISPLAY=:0 npm run start"
+User=mm
+ExecStart=/bin/sh -c "cd /home/mm/MagicMirror && DISPLAY=:0 npm run start:x11"
 
 [Install]
 WantedBy=multi-user.target
